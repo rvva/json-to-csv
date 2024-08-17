@@ -25,7 +25,7 @@ git clone https://github.com/rvva/json-to-csv
 </pre>
 2. Run script with python3.
 <pre>
-python3 python3 json-to-csv.py --input source.json --output converted.csv
+python3 json-to-csv.py --input source.json --output converted.csv
 </pre>
 
 ## Advanced use
@@ -33,7 +33,7 @@ python3 python3 json-to-csv.py --input source.json --output converted.csv
 The script according to RFC 4180 uses a comma as a separator by default. 
 If you want to use a different spearator, use the delimeter switch. 
 <pre>
-python3 python3 json-to-csv.py --input source.json --output converted.csv --delimiter ';'
+python3 json-to-csv.py --input source.json --output converted.csv --delimiter ';'
 </pre>
 ### Quoting
 <p>According to the RFC 4180, fields that contain a special character (comma, CR, LF or double quotation marks) must be "avoided" by enclosing them in double quotation marks (Hex 22).</p>
